@@ -3,5 +3,6 @@
     ViewBag.Title = "Welcome";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<br />
+@Html.ActionLink("Edit Profile", "EditProfile", "Home")
 <h2>Hi <b>@Context.User.Identity.Name</b>! Welcome to my first MVC 5 Web App!</h2>
